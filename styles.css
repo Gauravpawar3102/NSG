@@ -1,0 +1,134 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(241, 225, 206);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 80vw;
+  margin: 0 auto;
+  gap: 80px;
+}
+.navbar-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0px;
+}
+.left-container {
+}
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+.logo-span {
+  color: white;
+  font-weight: 700;
+}
+.right-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2.5rem;
+}
+.right-left-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  list-style-type: none;
+}
+.signIn-container {
+  background-color: black;
+  color: white;
+  padding: 8px 24px;
+  font-size: 1rem;
+  border-radius: 20px;
+  z-index: 6;
+}
+.links {
+  letter-spacing: 1px;
+  font-size: 14px;
+  z-index: 6;
+}
+.hero-container {
+  display: flex;
+}
+
+.hero-left-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+}
+.hero-left-top-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.left-element {
+  width: 16px;
+  background-color: black;
+  height: 2px;
+}
+.right-text {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.hero-left-heading-container {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #202020;
+}
+.hero-left-description-container {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  width: 80%;
+}
+.hero-left-buttons-container {
+  display: flex;
+  gap: 14px;
+  font-size: 14px;
+}
+.button1 {
+  background: #000;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.button2 {
+  background: rgb(241, 225, 206);
+  color: black;
+  padding: 8px 16px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.hero-right-container {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.image-container {
+  background: rgb(218, 198, 176);
+  position: relative;
+  width: 200px;
+  border-bottom-right-radius: 180px;
+  border-bottom-left-radius: 180px;
+  /* overflow: hidden; */
+
+  top: -180px;
+  /* z-index: 1; */
+  padding-top: 100px;
+}
+.hero-image {
+  height: 350px;
+  border-bottom-right-radius: 220px;
+  border-bottom-left-radius: 130px;
+}
